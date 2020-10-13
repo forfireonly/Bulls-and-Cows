@@ -1,4 +1,6 @@
 bullscows/Grader.java
  bullscows.Grader
+bullscows/RandomNumber.java
+ bullscows.RandomNumber
 bullscows/Main.java
  bullscows.Main

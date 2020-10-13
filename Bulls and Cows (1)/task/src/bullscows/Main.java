@@ -8,11 +8,17 @@ public class Main {
     public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
-        String[] guess = reader.readLine().split("");
+        /*String[] guess = reader.readLine().split("");
         String[] someSecretCode = new String[]{"9","3","0","5"};
         Grader grader = new Grader();
         grader.setSecreteCode(someSecretCode);
-        grader.check(guess);
+        grader.check(guess);*/
+
+        int length = Integer.parseInt(reader.readLine());
+
+        RandomNumber newRandomNumber = new RandomNumber();
+        newRandomNumber.setLengthOfNumber(length);
+        newRandomNumber.generatePseudoNumber();
 
 
     }
