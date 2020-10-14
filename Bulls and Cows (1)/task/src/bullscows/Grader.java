@@ -12,17 +12,11 @@ public class Grader {
         this.secreteCode = secreteCode;
     }
 
-
-
     public boolean check(String[] guess) {
         int cows = 0;
         int bulls = 0;
         String answer = "";
         boolean isWon = false;
-
-
-        //String secretCodeFour = secreteCode[0] + secreteCode[1] +
-        //        secreteCode[2] +secreteCode[3];
 
         for (int i = 0; i < guess.length; i++) {
             if (guess[i].equals(secreteCode[i])) {
@@ -53,10 +47,6 @@ public class Grader {
         } else {
             System.out.println("Grade: None.");
         }
-
         return isWon;
-
     }
-
-
 }

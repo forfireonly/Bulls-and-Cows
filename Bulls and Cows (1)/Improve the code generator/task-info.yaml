@@ -241,6 +241,148 @@ files:
         }
     }
   learner_created: false
+- name: src/bullscows/RandomNumber.java
+  visible: true
+  text: |
+    package bullscows;
+
+    import java.util.Random;
+
+    public class RandomNumber {
+
+        private int lengthOfNumber;
+        private long pseudoRandomNumberCode;
+
+        public void setLengthOfNumber(int lengthOfNumber) {
+            this.lengthOfNumber = lengthOfNumber;
+        }
+
+        public long getPseudoRandomNumber() {
+            return pseudoRandomNumberCode;
+        }
+
+        public String generatePseudoNumber() {
+            StringBuilder secretNumber = new StringBuilder();
+            Random rand = new Random();
+            int rand_int = 0
+
+            if (lengthOfNumber > 10) {
+                System.out.println("Error: can't generate a secret number with a length" +
+                        " of 11 because there aren't enough unique digits.");
+            } else {
+                for (int i = 0; i < lengthOfNumber; i++){
+                    while (i == 0 &  rand_int == 0) {
+                        rand_int = rand.nextInt(10);
+                    }
+                    secretNumber.append(rand_int);
+            }
+
+        }
+
+        /*public String generatePseudoNumber() {
+            String[] pseudoRandomNumber = String.valueOf(System.nanoTime()).split("");
+            StringBuilder secretNumber = new StringBuilder();
+            int index = pseudoRandomNumber.length - 1;
+
+            if (lengthOfNumber > 10) {
+                System.out.println("Error: can't generate a secret number with a length" +
+                        " of 11 because there aren't enough unique digits.");
+            } else {
+                for (int i = 0; i < lengthOfNumber; i++) {
+                    while (i == 0 && pseudoRandomNumber[index].equals("0")) {
+                        index = index - 1;
+                    }
+                    while (secretNumber.toString().contains(pseudoRandomNumber[index])) {
+                        index = index - 1;
+                    }
+                    secretNumber.append(pseudoRandomNumber[index]);
+                    if (index == 0) {
+                        pseudoRandomNumber = String.valueOf(System.nanoTime()).split("");
+                        index = pseudoRandomNumber.length - 1;
+                    }
+                    index = index - 1;
+                }
+            }
+            return String.valueOf(secretNumber);
+        }*/
+    }
+  learner_created: true
+- name: src/bullscows/Grader.java
+  visible: true
+  text: |
+    package bullscows;
+
+    public class Grader {
+
+        private String[] secreteCode;
+
+        public String[] getSecreteCode(){
+            return secreteCode;
+        }
+
+        public void setSecreteCode(String[] secreteCode) {
+            this.secreteCode = secreteCode;
+        }
+
+        public boolean check(String[] guess) {
+            int cows = 0;
+            int bulls = 0;
+            String answer = "";
+            boolean isWon = false;
+
+            for (int i = 0; i < guess.length; i++) {
+                if (guess[i].equals(secreteCode[i])) {
+                    bulls += 1;
+                }
+            }
+            for (int i = 0; i < guess.length; i++) {
+                for (int j = 0; j < guess.length; j++) {
+                    if (i != j && secreteCode[i].equals(guess[j])) {
+                        cows += 1;
+                    }
+                }
+            }
+            if (bulls == 0 && cows != 0) {
+                System.out.printf("Grade: %d cow(s).", cows);
+                System.out.println();
+            }else if (bulls == guess.length){
+                System.out.printf("Grade: %d bull(s)", bulls);
+                System.out.println();
+                System.out.println("Congratulations! You guessed the secret code.");
+                isWon = true;
+            }  else if (bulls != 0 && cows == 0) {
+                System.out.printf("Grade: %d bull(s).", bulls);
+                System.out.println();
+            } else if (bulls != 0) {
+                System.out.printf("Grade: %d bull(s) and %d cow(s).", bulls, cows);
+                System.out.println();
+            } else {
+                System.out.println("Grade: None.");
+            }
+            return isWon;
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/53/stages/291/implement
-status: Unchecked
-record: -1
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #1
+
+    Cannot find number of bulls or number of cows or None after the input.
+
+    Please find below the output of your program during this failed test.
+    Note that the &#39;&gt;&#39; character indicates the beginning of the input line.
+
+    ---
+
+    Please, enter the secret code&#39;s length:
+    &gt; 1
+    Input the number of possible symbols in the code:
+    &gt; 0
+    1
+    The secret is prepared: * (0-9)
+    Okay, let&#39;s start a game!
+    Turn 1:
+  time: Wed, 14 Oct 2020 18:32:56 UTC
+record: 5

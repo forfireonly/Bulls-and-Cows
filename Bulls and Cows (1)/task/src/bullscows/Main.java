@@ -14,23 +14,21 @@ public class Main {
         int lengthOfCode = Integer.parseInt(reader.readLine());
         String[] guessSecretCode = new String[lengthOfCode];
 
+        System.out.println("Input the number of possible symbols in the code:");
 
-        /*String[] guess = reader.readLine().split("");
-        String[] someSecretCode = new String[]{"9","3","0","5"};
-        Grader grader = new Grader();
-        grader.setSecreteCode(someSecretCode);
-        grader.check(guess);*/
-        Grader grader = new Grader();
+        int numberOfSymbols = Integer.parseInt(reader.readLine()) - 11;
 
+        Grader grader = new Grader();
 
         RandomNumber newRandomNumber = new RandomNumber();
         newRandomNumber.setLengthOfNumber(lengthOfCode);
+        newRandomNumber.setNumberOfSymbols(numberOfSymbols);
         String[] secretCode = newRandomNumber.generatePseudoNumber().split("");
         grader.setSecreteCode(secretCode);
+        System.out.println(newRandomNumber.printBeforeTheGame());
         System.out.println("Okay, let's start a game!");
         boolean isGuessed = false;
         int turn = 1;
-        //grader
 
         while (!isGuessed) {
             System.out.println("Turn " + turn +":");
@@ -38,10 +36,6 @@ public class Main {
             isGuessed = grader.check(guessSecretCode);
             turn += 1;
 
-
-
         }
-
-
     }
 }
