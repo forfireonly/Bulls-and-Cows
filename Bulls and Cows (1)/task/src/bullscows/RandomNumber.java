@@ -13,7 +13,7 @@ public class RandomNumber {
         return pseudoRandomNumberCode;
     }
 
-    public void generatePseudoNumber() {
+    public String generatePseudoNumber() {
         String[] pseudoRandomNumber = String.valueOf(System.nanoTime()).split("");
         StringBuilder secretNumber = new StringBuilder();
         int index = pseudoRandomNumber.length - 1;
@@ -37,9 +37,10 @@ public class RandomNumber {
                 index = index - 1;
 
             }
-            System.out.printf("The random secret number is %s.", secretNumber);
+            //System.out.printf("The random secret number is %s.", secretNumber);
+
         }
 
-
+        return String.valueOf(secretNumber);
     }
 }

@@ -243,6 +243,110 @@ files:
         }
     }
   learner_created: false
+- name: src/bullscows/RandomNumber.java
+  visible: true
+  text: |
+    package bullscows;
+
+    public class RandomNumber {
+
+        private int lengthOfNumber;
+        private long pseudoRandomNumberCode;
+
+        public void setLengthOfNumber(int lengthOfNumber) {
+            this.lengthOfNumber = lengthOfNumber;
+        }
+
+        public long getPseudoRandomNumber() {
+            return pseudoRandomNumberCode;
+        }
+
+        public void generatePseudoNumber() {
+            String[] pseudoRandomNumber = String.valueOf(System.nanoTime()).split("");
+            StringBuilder secretNumber = new StringBuilder();
+            int index = pseudoRandomNumber.length - 1;
+
+            if (lengthOfNumber > 10) {
+                System.out.println("Error: can't generate a secret number with a length" +
+                        " of 11 because there aren't enough unique digits.");
+            } else {
+                for (int i = 0; i < lengthOfNumber; i++) {
+                    while (i == 0 && pseudoRandomNumber[index].equals("0")) {
+                        index = index - 1;
+                    }
+                    while (secretNumber.toString().contains(pseudoRandomNumber[index])) {
+                        index = index - 1;
+                    }
+                    secretNumber.append(pseudoRandomNumber[index]);
+                    if (index == 0) {
+                        pseudoRandomNumber = String.valueOf(System.nanoTime()).split("");
+                        index = pseudoRandomNumber.length - 1;
+                    }
+                    index = index - 1;
+
+                }
+                System.out.printf("The random secret number is %s.", secretNumber);
+            }
+
+
+        }
+    }
+  learner_created: true
+- name: src/bullscows/Grader.java
+  visible: true
+  text: |
+    package bullscows;
+
+    public class Grader {
+
+        private String[] secreteCode;
+
+        public String[] getSecreteCode(){
+            return secreteCode;
+        }
+
+        public void setSecreteCode(String[] secreteCode) {
+            this.secreteCode = secreteCode;
+        }
+
+        public void check(String[] guess) {
+            int cows = 0;
+            int bulls = 0;
+            String answer = "";
+            String secretCodeFour = secreteCode[0] + secreteCode[1] +
+                    secreteCode[2] +secreteCode[3];
+
+            for (int i = 0; i < 4; i++) {
+                if (guess[i].equals(secreteCode[i])) {
+                    bulls += 1;
+                }
+            }
+            for (int i = 0; i < 4; i++) {
+                for (int j = 0; j < 4; j++) {
+                    if (i != j && secreteCode[i].equals(guess[j])) {
+                        cows += 1;
+                    }
+                }
+            }
+            if (bulls == 0 && cows != 0) {
+                System.out.printf("Grade: %d cow(s). The secret code is %s", cows, secretCodeFour);
+            } else if (bulls != 0 && cows == 0) {
+                System.out.printf("Grade: %d bull(s). The secret code is %s", bulls, secretCodeFour);
+            } else if (bulls != 0) {
+                System.out.printf("Grade: %d bull(s) and %d cow(s). The secret code is %s", bulls, cows, secretCodeFour);
+            } else {
+                System.out.println("Grade: None. The secret code is " + secretCodeFour);
+            }
+
+        }
+
+
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/53/stages/290/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/53/stages/290/implement">JetBrains
+    Academy</a>
+  time: Wed, 14 Oct 2020 00:26:52 UTC
 record: -1
