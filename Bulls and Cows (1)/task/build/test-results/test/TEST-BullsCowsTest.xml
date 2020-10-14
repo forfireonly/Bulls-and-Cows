@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BullsCowsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-14T19:23:32" hostname="Annas-MBP.lan" time="0.663">
+<testsuite name="BullsCowsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-14T20:32:16" hostname="Annas-MBP.lan" time="1.458">
   <properties/>
-  <testcase name="start" classname="BullsCowsTest" time="0.663"/>
+  <testcase name="start" classname="BullsCowsTest" time="1.458"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 Please, enter the secret code's length:
 > 1
 Input the number of possible symbols in the code:
 > 10
-9
-The secret is prepared: * (0-9
+2
+The secret is prepared: * (0-9).
 Okay, let's start a game!
 Turn 1:
 > 0
@@ -19,27 +19,6 @@ Turn 2:
 Grade: None.
 Turn 3:
 > 2
-Grade: None.
-Turn 4:
-> 3
-Grade: None.
-Turn 5:
-> 4
-Grade: None.
-Turn 6:
-> 5
-Grade: None.
-Turn 7:
-> 6
-Grade: None.
-Turn 8:
-> 7
-Grade: None.
-Turn 9:
-> 8
-Grade: None.
-Turn 10:
-> 9
 Grade: 1 bull(s)
 Congratulations! You guessed the secret code.
 ?[1;31m
@@ -48,12 +27,12 @@ Please, enter the secret code's length:
 > 4
 Input the number of possible symbols in the code:
 > 10
-8290
-The secret is prepared: **** (0-9
+9652
+The secret is prepared: **** (0-9).
 Okay, let's start a game!
 Turn 1:
 > 0000
-Grade: 1 bull(s) and 3 cow(s).
+Grade: None.
 Turn 2:
 > 1111
 Grade: None.
@@ -68,87 +47,75 @@ Turn 5:
 Grade: None.
 Turn 6:
 > 5555
-Grade: None.
+Grade: 1 bull(s) and 3 cow(s).
 Turn 7:
 > 6666
-Grade: None.
+Grade: 1 bull(s) and 3 cow(s).
 Turn 8:
 > 7777
 Grade: None.
 Turn 9:
 > 8888
-Grade: 1 bull(s) and 3 cow(s).
+Grade: None.
 Turn 10:
 > 9999
 Grade: 1 bull(s) and 3 cow(s).
 Turn 11:
-> 0289
-Grade: 1 bull(s) and 3 cow(s).
+> 2569
+Grade: 4 cow(s).
 Turn 12:
-> 2089
+> 5269
 Grade: 4 cow(s).
 Turn 13:
-> 8029
+> 6259
 Grade: 1 bull(s) and 3 cow(s).
 Turn 14:
-> 0829
-Grade: 4 cow(s).
-Turn 15:
-> 2809
-Grade: 4 cow(s).
-Turn 16:
-> 8209
+> 2659
 Grade: 2 bull(s) and 2 cow(s).
+Turn 15:
+> 5629
+Grade: 1 bull(s) and 3 cow(s).
+Turn 16:
+> 6529
+Grade: 4 cow(s).
 Turn 17:
-> 9208
+> 9526
 Grade: 1 bull(s) and 3 cow(s).
 Turn 18:
-> 2908
+> 5926
 Grade: 4 cow(s).
 Turn 19:
-> 0928
-Grade: 4 cow(s).
-Turn 20:
-> 9028
-Grade: 4 cow(s).
-Turn 21:
-> 2098
+> 2956
 Grade: 1 bull(s) and 3 cow(s).
-Turn 22:
-> 0298
+Turn 20:
+> 9256
 Grade: 2 bull(s) and 2 cow(s).
+Turn 21:
+> 5296
+Grade: 4 cow(s).
+Turn 22:
+> 2596
+Grade: 4 cow(s).
 Turn 23:
-> 0892
+> 2695
 Grade: 1 bull(s) and 3 cow(s).
 Turn 24:
-> 8092
-Grade: 2 bull(s) and 2 cow(s).
-Turn 25:
-> 9082
+> 6295
 Grade: 4 cow(s).
+Turn 25:
+> 9265
+Grade: 1 bull(s) and 3 cow(s).
 Turn 26:
-> 0982
+> 2965
 Grade: 4 cow(s).
 Turn 27:
-> 8902
-Grade: 1 bull(s) and 3 cow(s).
-Turn 28:
-> 9802
+> 6925
 Grade: 4 cow(s).
+Turn 28:
+> 9625
+Grade: 2 bull(s) and 2 cow(s).
 Turn 29:
-> 9820
-Grade: 1 bull(s) and 3 cow(s).
-Turn 30:
-> 8920
-Grade: 2 bull(s) and 2 cow(s).
-Turn 31:
-> 2980
-Grade: 1 bull(s) and 3 cow(s).
-Turn 32:
-> 9280
-Grade: 2 bull(s) and 2 cow(s).
-Turn 33:
-> 8290
+> 9652
 Grade: 4 bull(s)
 Congratulations! You guessed the secret code.
 ?[1;31m
@@ -157,12 +124,12 @@ Please, enter the secret code's length:
 > 6
 Input the number of possible symbols in the code:
 > 10
-574129
-The secret is prepared: ****** (0-9
+820136
+The secret is prepared: ****** (0-9).
 Okay, let's start a game!
 Turn 1:
 > 000000
-Grade: None.
+Grade: 1 bull(s) and 5 cow(s).
 Turn 2:
 > 111111
 Grade: 1 bull(s) and 5 cow(s).
@@ -171,122 +138,627 @@ Turn 3:
 Grade: 1 bull(s) and 5 cow(s).
 Turn 4:
 > 333333
-Grade: None.
+Grade: 1 bull(s) and 5 cow(s).
 Turn 5:
 > 444444
-Grade: 1 bull(s) and 5 cow(s).
+Grade: None.
 Turn 6:
 > 555555
-Grade: 1 bull(s) and 5 cow(s).
+Grade: None.
 Turn 7:
 > 666666
-Grade: None.
+Grade: 1 bull(s) and 5 cow(s).
 Turn 8:
 > 777777
-Grade: 1 bull(s) and 5 cow(s).
+Grade: None.
 Turn 9:
 > 888888
-Grade: None.
-Turn 10:
-> 999999
 Grade: 1 bull(s) and 5 cow(s).
+Turn 10:
+> 012368
+Grade: 6 cow(s).
 Turn 11:
-> 124579
-Grade: 2 bull(s) and 4 cow(s).
+> 102368
+Grade: 6 cow(s).
 Turn 12:
-> 214579
-Grade: 2 bull(s) and 4 cow(s).
+> 201368
+Grade: 6 cow(s).
 Turn 13:
-> 412579
+> 021368
 Grade: 1 bull(s) and 5 cow(s).
 Turn 14:
-> 142579
-Grade: 1 bull(s) and 5 cow(s).
+> 120368
+Grade: 2 bull(s) and 4 cow(s).
 Turn 15:
-> 241579
+> 210368
 Grade: 1 bull(s) and 5 cow(s).
 Turn 16:
-> 421579
+> 310268
 Grade: 1 bull(s) and 5 cow(s).
 Turn 17:
-> 521479
-Grade: 2 bull(s) and 4 cow(s).
+> 130268
+Grade: 1 bull(s) and 5 cow(s).
 Turn 18:
-> 251479
-Grade: 1 bull(s) and 5 cow(s).
+> 031268
+Grade: 6 cow(s).
 Turn 19:
-> 152479
-Grade: 1 bull(s) and 5 cow(s).
+> 301268
+Grade: 6 cow(s).
 Turn 20:
-> 512479
-Grade: 2 bull(s) and 4 cow(s).
+> 103268
+Grade: 6 cow(s).
 Turn 21:
-> 215479
-Grade: 1 bull(s) and 5 cow(s).
+> 013268
+Grade: 6 cow(s).
 Turn 22:
-> 125479
-Grade: 1 bull(s) and 5 cow(s).
+> 023168
+Grade: 2 bull(s) and 4 cow(s).
 Turn 23:
-> 145279
+> 203168
 Grade: 1 bull(s) and 5 cow(s).
 Turn 24:
-> 415279
+> 302168
 Grade: 1 bull(s) and 5 cow(s).
 Turn 25:
-> 514279
-Grade: 3 bull(s) and 3 cow(s).
+> 032168
+Grade: 1 bull(s) and 5 cow(s).
 Turn 26:
-> 154279
+> 230168
 Grade: 2 bull(s) and 4 cow(s).
 Turn 27:
-> 451279
-Grade: 1 bull(s) and 5 cow(s).
+> 320168
+Grade: 3 bull(s) and 3 cow(s).
 Turn 28:
-> 541279
-Grade: 2 bull(s) and 4 cow(s).
+> 321068
+Grade: 1 bull(s) and 5 cow(s).
 Turn 29:
-> 542179
-Grade: 3 bull(s) and 3 cow(s).
+> 231068
+Grade: 6 cow(s).
 Turn 30:
-> 452179
-Grade: 2 bull(s) and 4 cow(s).
+> 132068
+Grade: 6 cow(s).
 Turn 31:
-> 254179
-Grade: 3 bull(s) and 3 cow(s).
+> 312068
+Grade: 6 cow(s).
 Turn 32:
-> 524179
-Grade: 4 bull(s) and 2 cow(s).
+> 213068
+Grade: 6 cow(s).
 Turn 33:
-> 425179
-Grade: 2 bull(s) and 4 cow(s).
+> 123068
+Grade: 1 bull(s) and 5 cow(s).
 Turn 34:
-> 245179
-Grade: 2 bull(s) and 4 cow(s).
+> 623018
+Grade: 1 bull(s) and 5 cow(s).
 Turn 35:
-> 745129
-Grade: 3 bull(s) and 3 cow(s).
+> 263018
+Grade: 6 cow(s).
 Turn 36:
-> 475129
-Grade: 4 bull(s) and 2 cow(s).
+> 362018
+Grade: 6 cow(s).
 Turn 37:
-> 574129
+> 632018
+Grade: 6 cow(s).
+Turn 38:
+> 236018
+Grade: 6 cow(s).
+Turn 39:
+> 326018
+Grade: 1 bull(s) and 5 cow(s).
+Turn 40:
+> 026318
+Grade: 1 bull(s) and 5 cow(s).
+Turn 41:
+> 206318
+Grade: 6 cow(s).
+Turn 42:
+> 602318
+Grade: 6 cow(s).
+Turn 43:
+> 062318
+Grade: 6 cow(s).
+Turn 44:
+> 260318
+Grade: 1 bull(s) and 5 cow(s).
+Turn 45:
+> 620318
+Grade: 2 bull(s) and 4 cow(s).
+Turn 46:
+> 630218
+Grade: 1 bull(s) and 5 cow(s).
+Turn 47:
+> 360218
+Grade: 1 bull(s) and 5 cow(s).
+Turn 48:
+> 063218
+Grade: 6 cow(s).
+Turn 49:
+> 603218
+Grade: 6 cow(s).
+Turn 50:
+> 306218
+Grade: 6 cow(s).
+Turn 51:
+> 036218
+Grade: 6 cow(s).
+Turn 52:
+> 032618
+Grade: 6 cow(s).
+Turn 53:
+> 302618
+Grade: 6 cow(s).
+Turn 54:
+> 203618
+Grade: 6 cow(s).
+Turn 55:
+> 023618
+Grade: 1 bull(s) and 5 cow(s).
+Turn 56:
+> 320618
+Grade: 2 bull(s) and 4 cow(s).
+Turn 57:
+> 230618
+Grade: 1 bull(s) and 5 cow(s).
+Turn 58:
+> 130628
+Grade: 1 bull(s) and 5 cow(s).
+Turn 59:
+> 310628
+Grade: 1 bull(s) and 5 cow(s).
+Turn 60:
+> 013628
+Grade: 6 cow(s).
+Turn 61:
+> 103628
+Grade: 6 cow(s).
+Turn 62:
+> 301628
+Grade: 6 cow(s).
+Turn 63:
+> 031628
+Grade: 6 cow(s).
+Turn 64:
+> 631028
+Grade: 6 cow(s).
+Turn 65:
+> 361028
+Grade: 6 cow(s).
+Turn 66:
+> 163028
+Grade: 6 cow(s).
+Turn 67:
+> 613028
+Grade: 6 cow(s).
+Turn 68:
+> 316028
+Grade: 6 cow(s).
+Turn 69:
+> 136028
+Grade: 6 cow(s).
+Turn 70:
+> 106328
+Grade: 6 cow(s).
+Turn 71:
+> 016328
+Grade: 6 cow(s).
+Turn 72:
+> 610328
+Grade: 1 bull(s) and 5 cow(s).
+Turn 73:
+> 160328
+Grade: 1 bull(s) and 5 cow(s).
+Turn 74:
+> 061328
+Grade: 6 cow(s).
+Turn 75:
+> 601328
+Grade: 6 cow(s).
+Turn 76:
+> 603128
+Grade: 1 bull(s) and 5 cow(s).
+Turn 77:
+> 063128
+Grade: 1 bull(s) and 5 cow(s).
+Turn 78:
+> 360128
+Grade: 2 bull(s) and 4 cow(s).
+Turn 79:
+> 630128
+Grade: 2 bull(s) and 4 cow(s).
+Turn 80:
+> 036128
+Grade: 1 bull(s) and 5 cow(s).
+Turn 81:
+> 306128
+Grade: 1 bull(s) and 5 cow(s).
+Turn 82:
+> 206138
+Grade: 2 bull(s) and 4 cow(s).
+Turn 83:
+> 026138
+Grade: 3 bull(s) and 3 cow(s).
+Turn 84:
+> 620138
+Grade: 4 bull(s) and 2 cow(s).
+Turn 85:
+> 260138
+Grade: 3 bull(s) and 3 cow(s).
+Turn 86:
+> 062138
+Grade: 2 bull(s) and 4 cow(s).
+Turn 87:
+> 602138
+Grade: 2 bull(s) and 4 cow(s).
+Turn 88:
+> 102638
+Grade: 1 bull(s) and 5 cow(s).
+Turn 89:
+> 012638
+Grade: 1 bull(s) and 5 cow(s).
+Turn 90:
+> 210638
+Grade: 2 bull(s) and 4 cow(s).
+Turn 91:
+> 120638
+Grade: 3 bull(s) and 3 cow(s).
+Turn 92:
+> 021638
+Grade: 2 bull(s) and 4 cow(s).
+Turn 93:
+> 201638
+Grade: 1 bull(s) and 5 cow(s).
+Turn 94:
+> 261038
+Grade: 1 bull(s) and 5 cow(s).
+Turn 95:
+> 621038
+Grade: 2 bull(s) and 4 cow(s).
+Turn 96:
+> 126038
+Grade: 2 bull(s) and 4 cow(s).
+Turn 97:
+> 216038
+Grade: 1 bull(s) and 5 cow(s).
+Turn 98:
+> 612038
+Grade: 1 bull(s) and 5 cow(s).
+Turn 99:
+> 162038
+Grade: 1 bull(s) and 5 cow(s).
+Turn 100:
+> 160238
+Grade: 2 bull(s) and 4 cow(s).
+Turn 101:
+> 610238
+Grade: 2 bull(s) and 4 cow(s).
+Turn 102:
+> 016238
+Grade: 1 bull(s) and 5 cow(s).
+Turn 103:
+> 106238
+Grade: 1 bull(s) and 5 cow(s).
+Turn 104:
+> 601238
+Grade: 1 bull(s) and 5 cow(s).
+Turn 105:
+> 061238
+Grade: 1 bull(s) and 5 cow(s).
+Turn 106:
+> 361208
+Grade: 6 cow(s).
+Turn 107:
+> 631208
+Grade: 6 cow(s).
+Turn 108:
+> 136208
+Grade: 6 cow(s).
+Turn 109:
+> 316208
+Grade: 6 cow(s).
+Turn 110:
+> 613208
+Grade: 6 cow(s).
+Turn 111:
+> 163208
+Grade: 6 cow(s).
+Turn 112:
+> 263108
+Grade: 1 bull(s) and 5 cow(s).
+Turn 113:
+> 623108
+Grade: 2 bull(s) and 4 cow(s).
+Turn 114:
+> 326108
+Grade: 2 bull(s) and 4 cow(s).
+Turn 115:
+> 236108
+Grade: 1 bull(s) and 5 cow(s).
+Turn 116:
+> 632108
+Grade: 1 bull(s) and 5 cow(s).
+Turn 117:
+> 362108
+Grade: 1 bull(s) and 5 cow(s).
+Turn 118:
+> 312608
+Grade: 6 cow(s).
+Turn 119:
+> 132608
+Grade: 6 cow(s).
+Turn 120:
+> 231608
+Grade: 6 cow(s).
+Turn 121:
+> 321608
+Grade: 1 bull(s) and 5 cow(s).
+Turn 122:
+> 123608
+Grade: 1 bull(s) and 5 cow(s).
+Turn 123:
+> 213608
+Grade: 6 cow(s).
+Turn 124:
+> 216308
+Grade: 6 cow(s).
+Turn 125:
+> 126308
+Grade: 1 bull(s) and 5 cow(s).
+Turn 126:
+> 621308
+Grade: 1 bull(s) and 5 cow(s).
+Turn 127:
+> 261308
+Grade: 6 cow(s).
+Turn 128:
+> 162308
+Grade: 6 cow(s).
+Turn 129:
+> 612308
+Grade: 6 cow(s).
+Turn 130:
+> 812306
+Grade: 2 bull(s) and 4 cow(s).
+Turn 131:
+> 182306
+Grade: 1 bull(s) and 5 cow(s).
+Turn 132:
+> 281306
+Grade: 1 bull(s) and 5 cow(s).
+Turn 133:
+> 821306
+Grade: 3 bull(s) and 3 cow(s).
+Turn 134:
+> 128306
+Grade: 2 bull(s) and 4 cow(s).
+Turn 135:
+> 218306
+Grade: 1 bull(s) and 5 cow(s).
+Turn 136:
+> 318206
+Grade: 1 bull(s) and 5 cow(s).
+Turn 137:
+> 138206
+Grade: 1 bull(s) and 5 cow(s).
+Turn 138:
+> 831206
+Grade: 2 bull(s) and 4 cow(s).
+Turn 139:
+> 381206
+Grade: 1 bull(s) and 5 cow(s).
+Turn 140:
+> 183206
+Grade: 1 bull(s) and 5 cow(s).
+Turn 141:
+> 813206
+Grade: 2 bull(s) and 4 cow(s).
+Turn 142:
+> 823106
+Grade: 4 bull(s) and 2 cow(s).
+Turn 143:
+> 283106
+Grade: 2 bull(s) and 4 cow(s).
+Turn 144:
+> 382106
+Grade: 2 bull(s) and 4 cow(s).
+Turn 145:
+> 832106
+Grade: 3 bull(s) and 3 cow(s).
+Turn 146:
+> 238106
+Grade: 2 bull(s) and 4 cow(s).
+Turn 147:
+> 328106
+Grade: 3 bull(s) and 3 cow(s).
+Turn 148:
+> 321806
+Grade: 2 bull(s) and 4 cow(s).
+Turn 149:
+> 231806
+Grade: 1 bull(s) and 5 cow(s).
+Turn 150:
+> 132806
+Grade: 1 bull(s) and 5 cow(s).
+Turn 151:
+> 312806
+Grade: 1 bull(s) and 5 cow(s).
+Turn 152:
+> 213806
+Grade: 1 bull(s) and 5 cow(s).
+Turn 153:
+> 123806
+Grade: 2 bull(s) and 4 cow(s).
+Turn 154:
+> 023816
+Grade: 2 bull(s) and 4 cow(s).
+Turn 155:
+> 203816
+Grade: 1 bull(s) and 5 cow(s).
+Turn 156:
+> 302816
+Grade: 1 bull(s) and 5 cow(s).
+Turn 157:
+> 032816
+Grade: 1 bull(s) and 5 cow(s).
+Turn 158:
+> 230816
+Grade: 2 bull(s) and 4 cow(s).
+Turn 159:
+> 320816
+Grade: 3 bull(s) and 3 cow(s).
+Turn 160:
+> 820316
+Grade: 4 bull(s) and 2 cow(s).
+Turn 161:
+> 280316
+Grade: 2 bull(s) and 4 cow(s).
+Turn 162:
+> 082316
+Grade: 1 bull(s) and 5 cow(s).
+Turn 163:
+> 802316
+Grade: 2 bull(s) and 4 cow(s).
+Turn 164:
+> 208316
+Grade: 1 bull(s) and 5 cow(s).
+Turn 165:
+> 028316
+Grade: 2 bull(s) and 4 cow(s).
+Turn 166:
+> 038216
+Grade: 1 bull(s) and 5 cow(s).
+Turn 167:
+> 308216
+Grade: 1 bull(s) and 5 cow(s).
+Turn 168:
+> 803216
+Grade: 2 bull(s) and 4 cow(s).
+Turn 169:
+> 083216
+Grade: 1 bull(s) and 5 cow(s).
+Turn 170:
+> 380216
+Grade: 2 bull(s) and 4 cow(s).
+Turn 171:
+> 830216
+Grade: 3 bull(s) and 3 cow(s).
+Turn 172:
+> 832016
+Grade: 2 bull(s) and 4 cow(s).
+Turn 173:
+> 382016
+Grade: 1 bull(s) and 5 cow(s).
+Turn 174:
+> 283016
+Grade: 1 bull(s) and 5 cow(s).
+Turn 175:
+> 823016
+Grade: 3 bull(s) and 3 cow(s).
+Turn 176:
+> 328016
+Grade: 2 bull(s) and 4 cow(s).
+Turn 177:
+> 238016
+Grade: 1 bull(s) and 5 cow(s).
+Turn 178:
+> 138026
+Grade: 1 bull(s) and 5 cow(s).
+Turn 179:
+> 318026
+Grade: 1 bull(s) and 5 cow(s).
+Turn 180:
+> 813026
+Grade: 2 bull(s) and 4 cow(s).
+Turn 181:
+> 183026
+Grade: 1 bull(s) and 5 cow(s).
+Turn 182:
+> 381026
+Grade: 1 bull(s) and 5 cow(s).
+Turn 183:
+> 831026
+Grade: 2 bull(s) and 4 cow(s).
+Turn 184:
+> 031826
+Grade: 1 bull(s) and 5 cow(s).
+Turn 185:
+> 301826
+Grade: 1 bull(s) and 5 cow(s).
+Turn 186:
+> 103826
+Grade: 1 bull(s) and 5 cow(s).
+Turn 187:
+> 013826
+Grade: 1 bull(s) and 5 cow(s).
+Turn 188:
+> 310826
+Grade: 2 bull(s) and 4 cow(s).
+Turn 189:
+> 130826
+Grade: 2 bull(s) and 4 cow(s).
+Turn 190:
+> 180326
+Grade: 2 bull(s) and 4 cow(s).
+Turn 191:
+> 810326
+Grade: 3 bull(s) and 3 cow(s).
+Turn 192:
+> 018326
+Grade: 1 bull(s) and 5 cow(s).
+Turn 193:
+> 108326
+Grade: 1 bull(s) and 5 cow(s).
+Turn 194:
+> 801326
+Grade: 2 bull(s) and 4 cow(s).
+Turn 195:
+> 081326
+Grade: 1 bull(s) and 5 cow(s).
+Turn 196:
+> 083126
+Grade: 2 bull(s) and 4 cow(s).
+Turn 197:
+> 803126
+Grade: 3 bull(s) and 3 cow(s).
+Turn 198:
+> 308126
+Grade: 2 bull(s) and 4 cow(s).
+Turn 199:
+> 038126
+Grade: 2 bull(s) and 4 cow(s).
+Turn 200:
+> 830126
+Grade: 4 bull(s) and 2 cow(s).
+Turn 201:
+> 380126
+Grade: 3 bull(s) and 3 cow(s).
+Turn 202:
+> 280136
+Grade: 4 bull(s) and 2 cow(s).
+Turn 203:
+> 820136
 Grade: 6 bull(s)
 Congratulations! You guessed the secret code.
 ?[1;31m
 Start test 4?[0m
 Please, enter the secret code's length:
+> 11
+Input the number of possible symbols in the code:
+> 10
+Error: it's not possible to generate a code with a length of 11with10 unique symbols.
+?[1;31m
+Start test 5?[0m
+Please, enter the secret code's length:
 > 4
 Input the number of possible symbols in the code:
 > 16
-5802
-The secret is prepared: **** (0-9, (a-f).
+1924
+The secret is prepared: **** (0-9, a-f).
 Okay, let's start a game!
 Turn 1:
 > 0000
-Grade: 1 bull(s) and 3 cow(s).
+Grade: None.
 Turn 2:
 > 1111
-Grade: None.
+Grade: 1 bull(s) and 3 cow(s).
 Turn 3:
 > 2222
 Grade: 1 bull(s) and 3 cow(s).
@@ -295,10 +767,10 @@ Turn 4:
 Grade: None.
 Turn 5:
 > 4444
-Grade: None.
+Grade: 1 bull(s) and 3 cow(s).
 Turn 6:
 > 5555
-Grade: 1 bull(s) and 3 cow(s).
+Grade: None.
 Turn 7:
 > 6666
 Grade: None.
@@ -307,67 +779,46 @@ Turn 8:
 Grade: None.
 Turn 9:
 > 8888
-Grade: 1 bull(s) and 3 cow(s).
+Grade: None.
 Turn 10:
-> 0258
-Grade: 4 cow(s).
+> 9999
+Grade: 1 bull(s) and 3 cow(s).
 Turn 11:
-> 2058
-Grade: 4 cow(s).
+> 1249
+Grade: 1 bull(s) and 3 cow(s).
 Turn 12:
-> 5028
-Grade: 1 bull(s) and 3 cow(s).
+> 2149
+Grade: 4 cow(s).
 Turn 13:
-> 0528
-Grade: 4 cow(s).
+> 4129
+Grade: 1 bull(s) and 3 cow(s).
 Turn 14:
-> 2508
-Grade: 1 bull(s) and 3 cow(s).
+> 1429
+Grade: 2 bull(s) and 2 cow(s).
 Turn 15:
-> 5208
-Grade: 2 bull(s) and 2 cow(s).
+> 2419
+Grade: 4 cow(s).
 Turn 16:
-> 8205
-Grade: 1 bull(s) and 3 cow(s).
+> 4219
+Grade: 4 cow(s).
 Turn 17:
-> 2805
-Grade: 2 bull(s) and 2 cow(s).
+> 9214
+Grade: 1 bull(s) and 3 cow(s).
 Turn 18:
-> 0825
-Grade: 1 bull(s) and 3 cow(s).
+> 2914
+Grade: 2 bull(s) and 2 cow(s).
 Turn 19:
-> 8025
-Grade: 4 cow(s).
-Turn 20:
-> 2085
-Grade: 4 cow(s).
-Turn 21:
-> 0285
-Grade: 4 cow(s).
-Turn 22:
-> 0582
-Grade: 1 bull(s) and 3 cow(s).
-Turn 23:
-> 5082
-Grade: 2 bull(s) and 2 cow(s).
-Turn 24:
-> 8052
-Grade: 1 bull(s) and 3 cow(s).
-Turn 25:
-> 0852
-Grade: 2 bull(s) and 2 cow(s).
-Turn 26:
-> 5802
+> 1924
 Grade: 4 bull(s)
 Congratulations! You guessed the secret code.
 ?[1;31m
-Start test 5?[0m
+Start test 6?[0m
 Please, enter the secret code's length:
 > 6
 Input the number of possible symbols in the code:
 > 36
-7g3q5n
-The secret is prepared: ****** (0-9, (a-z).
+5qtr9c
+The secret is prepared: ****** (0-9, a-z).
 Okay, let's start a game!
 Turn 1:
 > 000000
@@ -380,7 +831,7 @@ Turn 3:
 Grade: None.
 Turn 4:
 > 333333
-Grade: 1 bull(s) and 5 cow(s).
+Grade: None.
 Turn 5:
 > 444444
 Grade: None.
@@ -392,13 +843,13 @@ Turn 7:
 Grade: None.
 Turn 8:
 > 777777
-Grade: 1 bull(s) and 5 cow(s).
+Grade: None.
 Turn 9:
 > 888888
 Grade: None.
 Turn 10:
 > 999999
-Grade: None.
+Grade: 1 bull(s) and 5 cow(s).
 Turn 11:
 > aaaaaa
 Grade: None.
@@ -407,7 +858,7 @@ Turn 12:
 Grade: None.
 Turn 13:
 > cccccc
-Grade: None.
+Grade: 1 bull(s) and 5 cow(s).
 Turn 14:
 > dddddd
 Grade: None.
@@ -419,7 +870,7 @@ Turn 16:
 Grade: None.
 Turn 17:
 > gggggg
-Grade: 1 bull(s) and 5 cow(s).
+Grade: None.
 Turn 18:
 > hhhhhh
 Grade: None.
@@ -440,7 +891,7 @@ Turn 23:
 Grade: None.
 Turn 24:
 > nnnnnn
-Grade: 1 bull(s) and 5 cow(s).
+Grade: None.
 Turn 25:
 > oooooo
 Grade: None.
@@ -451,453 +902,1331 @@ Turn 27:
 > qqqqqq
 Grade: 1 bull(s) and 5 cow(s).
 Turn 28:
-> 357gnq
-Grade: 6 cow(s).
+> rrrrrr
+Grade: 1 bull(s) and 5 cow(s).
 Turn 29:
-> 537gnq
-Grade: 6 cow(s).
+> ssssss
+Grade: None.
 Turn 30:
-> 735gnq
+> tttttt
 Grade: 1 bull(s) and 5 cow(s).
 Turn 31:
-> 375gnq
-Grade: 6 cow(s).
-Turn 32:
-> 573gnq
+> 59cqrt
 Grade: 1 bull(s) and 5 cow(s).
+Turn 32:
+> 95cqrt
+Grade: 6 cow(s).
 Turn 33:
-> 753gnq
-Grade: 2 bull(s) and 4 cow(s).
+> c59qrt
+Grade: 6 cow(s).
 Turn 34:
-> g537nq
+> 5c9qrt
 Grade: 1 bull(s) and 5 cow(s).
 Turn 35:
-> 5g37nq
-Grade: 2 bull(s) and 4 cow(s).
+> 9c5qrt
+Grade: 6 cow(s).
 Turn 36:
-> 3g57nq
-Grade: 1 bull(s) and 5 cow(s).
+> c95qrt
+Grade: 6 cow(s).
 Turn 37:
-> g357nq
+> q95crt
 Grade: 6 cow(s).
 Turn 38:
-> 53g7nq
-Grade: 6 cow(s).
+> 9q5crt
+Grade: 1 bull(s) and 5 cow(s).
 Turn 39:
-> 35g7nq
-Grade: 6 cow(s).
+> 5q9crt
+Grade: 2 bull(s) and 4 cow(s).
 Turn 40:
-> 37g5nq
+> q59crt
 Grade: 6 cow(s).
 Turn 41:
-> 73g5nq
-Grade: 1 bull(s) and 5 cow(s).
-Turn 42:
-> g375nq
+> 95qcrt
 Grade: 6 cow(s).
+Turn 42:
+> 59qcrt
+Grade: 1 bull(s) and 5 cow(s).
 Turn 43:
-> 3g75nq
+> 5cq9rt
 Grade: 1 bull(s) and 5 cow(s).
 Turn 44:
-> 7g35nq
-Grade: 3 bull(s) and 3 cow(s).
-Turn 45:
-> g735nq
-Grade: 1 bull(s) and 5 cow(s).
-Turn 46:
-> g753nq
+> c5q9rt
 Grade: 6 cow(s).
-Turn 47:
-> 7g53nq
+Turn 45:
+> q5c9rt
+Grade: 6 cow(s).
+Turn 46:
+> 5qc9rt
 Grade: 2 bull(s) and 4 cow(s).
-Turn 48:
-> 5g73nq
+Turn 47:
+> cq59rt
 Grade: 1 bull(s) and 5 cow(s).
+Turn 48:
+> qc59rt
+Grade: 6 cow(s).
 Turn 49:
-> g573nq
+> qc95rt
 Grade: 6 cow(s).
 Turn 50:
-> 75g3nq
+> cq95rt
 Grade: 1 bull(s) and 5 cow(s).
 Turn 51:
-> 57g3nq
-Grade: 6 cow(s).
+> 9qc5rt
+Grade: 1 bull(s) and 5 cow(s).
 Turn 52:
-> n7g35q
-Grade: 1 bull(s) and 5 cow(s).
+> q9c5rt
+Grade: 6 cow(s).
 Turn 53:
-> 7ng35q
-Grade: 2 bull(s) and 4 cow(s).
+> c9q5rt
+Grade: 6 cow(s).
 Turn 54:
-> gn735q
-Grade: 1 bull(s) and 5 cow(s).
+> 9cq5rt
+Grade: 6 cow(s).
 Turn 55:
-> ng735q
-Grade: 2 bull(s) and 4 cow(s).
+> rcq59t
+Grade: 1 bull(s) and 5 cow(s).
 Turn 56:
-> 7gn35q
-Grade: 3 bull(s) and 3 cow(s).
+> crq59t
+Grade: 1 bull(s) and 5 cow(s).
 Turn 57:
-> g7n35q
+> qrc59t
 Grade: 1 bull(s) and 5 cow(s).
 Turn 58:
-> 37ng5q
-Grade: 1 bull(s) and 5 cow(s).
+> rqc59t
+Grade: 2 bull(s) and 4 cow(s).
 Turn 59:
-> 73ng5q
+> cqr59t
 Grade: 2 bull(s) and 4 cow(s).
 Turn 60:
-> n37g5q
+> qcr59t
 Grade: 1 bull(s) and 5 cow(s).
 Turn 61:
-> 3n7g5q
-Grade: 1 bull(s) and 5 cow(s).
+> 5crq9t
+Grade: 2 bull(s) and 4 cow(s).
 Turn 62:
-> 7n3g5q
-Grade: 3 bull(s) and 3 cow(s).
+> c5rq9t
+Grade: 1 bull(s) and 5 cow(s).
 Turn 63:
-> n73g5q
-Grade: 2 bull(s) and 4 cow(s).
+> r5cq9t
+Grade: 1 bull(s) and 5 cow(s).
 Turn 64:
-> ng375q
-Grade: 3 bull(s) and 3 cow(s).
-Turn 65:
-> gn375q
+> 5rcq9t
 Grade: 2 bull(s) and 4 cow(s).
+Turn 65:
+> cr5q9t
+Grade: 1 bull(s) and 5 cow(s).
 Turn 66:
-> 3ng75q
+> rc5q9t
 Grade: 1 bull(s) and 5 cow(s).
 Turn 67:
-> n3g75q
-Grade: 1 bull(s) and 5 cow(s).
+> rq5c9t
+Grade: 2 bull(s) and 4 cow(s).
 Turn 68:
-> g3n75q
+> qr5c9t
 Grade: 1 bull(s) and 5 cow(s).
 Turn 69:
-> 3gn75q
+> 5rqc9t
 Grade: 2 bull(s) and 4 cow(s).
 Turn 70:
-> 3g7n5q
-Grade: 2 bull(s) and 4 cow(s).
+> r5qc9t
+Grade: 1 bull(s) and 5 cow(s).
 Turn 71:
-> g37n5q
+> q5rc9t
 Grade: 1 bull(s) and 5 cow(s).
 Turn 72:
-> 73gn5q
-Grade: 2 bull(s) and 4 cow(s).
+> 5qrc9t
+Grade: 3 bull(s) and 3 cow(s).
 Turn 73:
-> 37gn5q
-Grade: 1 bull(s) and 5 cow(s).
+> 5qcr9t
+Grade: 4 bull(s) and 2 cow(s).
 Turn 74:
-> g73n5q
+> q5cr9t
 Grade: 2 bull(s) and 4 cow(s).
 Turn 75:
-> 7g3n5q
-Grade: 4 bull(s) and 2 cow(s).
-Turn 76:
-> 5g3n7q
+> c5qr9t
 Grade: 2 bull(s) and 4 cow(s).
+Turn 76:
+> 5cqr9t
+Grade: 3 bull(s) and 3 cow(s).
 Turn 77:
-> g53n7q
-Grade: 1 bull(s) and 5 cow(s).
+> qc5r9t
+Grade: 2 bull(s) and 4 cow(s).
 Turn 78:
-> 35gn7q
-Grade: 6 cow(s).
+> cq5r9t
+Grade: 3 bull(s) and 3 cow(s).
 Turn 79:
-> 53gn7q
-Grade: 6 cow(s).
+> 9q5rct
+Grade: 2 bull(s) and 4 cow(s).
 Turn 80:
-> g35n7q
-Grade: 6 cow(s).
-Turn 81:
-> 3g5n7q
+> q95rct
 Grade: 1 bull(s) and 5 cow(s).
+Turn 81:
+> 59qrct
+Grade: 2 bull(s) and 4 cow(s).
 Turn 82:
-> ng537q
+> 95qrct
 Grade: 1 bull(s) and 5 cow(s).
 Turn 83:
-> gn537q
-Grade: 6 cow(s).
+> q59rct
+Grade: 1 bull(s) and 5 cow(s).
 Turn 84:
-> 5ng37q
-Grade: 6 cow(s).
+> 5q9rct
+Grade: 3 bull(s) and 3 cow(s).
 Turn 85:
-> n5g37q
-Grade: 6 cow(s).
+> rq95ct
+Grade: 1 bull(s) and 5 cow(s).
 Turn 86:
-> g5n37q
+> qr95ct
 Grade: 6 cow(s).
 Turn 87:
-> 5gn37q
-Grade: 1 bull(s) and 5 cow(s).
+> 9rq5ct
+Grade: 6 cow(s).
 Turn 88:
-> 53ng7q
+> r9q5ct
 Grade: 6 cow(s).
 Turn 89:
-> 35ng7q
+> q9r5ct
 Grade: 6 cow(s).
 Turn 90:
-> n53g7q
+> 9qr5ct
 Grade: 1 bull(s) and 5 cow(s).
 Turn 91:
-> 5n3g7q
-Grade: 1 bull(s) and 5 cow(s).
-Turn 92:
-> 3n5g7q
+> 95rqct
 Grade: 6 cow(s).
+Turn 92:
+> 59rqct
+Grade: 1 bull(s) and 5 cow(s).
 Turn 93:
-> n35g7q
+> r95qct
 Grade: 6 cow(s).
 Turn 94:
-> n3g57q
+> 9r5qct
 Grade: 6 cow(s).
 Turn 95:
-> 3ng57q
-Grade: 6 cow(s).
-Turn 96:
-> gn357q
+> 5r9qct
 Grade: 1 bull(s) and 5 cow(s).
+Turn 96:
+> r59qct
+Grade: 6 cow(s).
 Turn 97:
-> ng357q
-Grade: 2 bull(s) and 4 cow(s).
+> r5q9ct
+Grade: 6 cow(s).
 Turn 98:
-> 3gn57q
+> 5rq9ct
 Grade: 1 bull(s) and 5 cow(s).
 Turn 99:
-> g3n57q
+> qr59ct
 Grade: 6 cow(s).
 Turn 100:
-> 73n5gq
+> rq59ct
 Grade: 1 bull(s) and 5 cow(s).
 Turn 101:
-> 37n5gq
-Grade: 6 cow(s).
-Turn 102:
-> n735gq
-Grade: 1 bull(s) and 5 cow(s).
-Turn 103:
-> 7n35gq
+> 5qr9ct
 Grade: 2 bull(s) and 4 cow(s).
-Turn 104:
-> 3n75gq
+Turn 102:
+> q5r9ct
 Grade: 6 cow(s).
+Turn 103:
+> c5r9qt
+Grade: 6 cow(s).
+Turn 104:
+> 5cr9qt
+Grade: 1 bull(s) and 5 cow(s).
 Turn 105:
-> n375gq
+> rc59qt
 Grade: 6 cow(s).
 Turn 106:
-> 537ngq
+> cr59qt
 Grade: 6 cow(s).
 Turn 107:
-> 357ngq
-Grade: 6 cow(s).
+> 5rc9qt
+Grade: 1 bull(s) and 5 cow(s).
 Turn 108:
-> 753ngq
-Grade: 2 bull(s) and 4 cow(s).
+> r5c9qt
+Grade: 6 cow(s).
 Turn 109:
-> 573ngq
+> 95crqt
 Grade: 1 bull(s) and 5 cow(s).
 Turn 110:
-> 375ngq
-Grade: 6 cow(s).
+> 59crqt
+Grade: 2 bull(s) and 4 cow(s).
 Turn 111:
-> 735ngq
+> c95rqt
 Grade: 1 bull(s) and 5 cow(s).
 Turn 112:
-> 7n53gq
+> 9c5rqt
 Grade: 1 bull(s) and 5 cow(s).
 Turn 113:
-> n753gq
-Grade: 6 cow(s).
+> 5c9rqt
+Grade: 2 bull(s) and 4 cow(s).
 Turn 114:
-> 57n3gq
-Grade: 6 cow(s).
-Turn 115:
-> 75n3gq
+> c59rqt
 Grade: 1 bull(s) and 5 cow(s).
+Turn 115:
+> cr95qt
+Grade: 6 cow(s).
 Turn 116:
-> n573gq
+> rc95qt
 Grade: 6 cow(s).
 Turn 117:
-> 5n73gq
+> 9cr5qt
 Grade: 6 cow(s).
 Turn 118:
-> 5n37gq
-Grade: 1 bull(s) and 5 cow(s).
+> c9r5qt
+Grade: 6 cow(s).
 Turn 119:
-> n537gq
-Grade: 1 bull(s) and 5 cow(s).
+> r9c5qt
+Grade: 6 cow(s).
 Turn 120:
-> 35n7gq
+> 9rc5qt
 Grade: 6 cow(s).
 Turn 121:
-> 53n7gq
+> 9r5cqt
 Grade: 6 cow(s).
 Turn 122:
-> n357gq
+> r95cqt
 Grade: 6 cow(s).
 Turn 123:
-> 3n57gq
-Grade: 6 cow(s).
+> 59rcqt
+Grade: 1 bull(s) and 5 cow(s).
 Turn 124:
-> gn573q
+> 95rcqt
 Grade: 6 cow(s).
 Turn 125:
-> ng573q
-Grade: 1 bull(s) and 5 cow(s).
+> r59cqt
+Grade: 6 cow(s).
 Turn 126:
-> 5gn73q
+> 5r9cqt
 Grade: 1 bull(s) and 5 cow(s).
 Turn 127:
-> g5n73q
+> qr9c5t
 Grade: 6 cow(s).
 Turn 128:
-> n5g73q
-Grade: 6 cow(s).
-Turn 129:
-> 5ng73q
-Grade: 6 cow(s).
-Turn 130:
-> 7ng53q
+> rq9c5t
 Grade: 1 bull(s) and 5 cow(s).
+Turn 129:
+> 9qrc5t
+Grade: 1 bull(s) and 5 cow(s).
+Turn 130:
+> q9rc5t
+Grade: 6 cow(s).
 Turn 131:
-> n7g53q
+> r9qc5t
 Grade: 6 cow(s).
 Turn 132:
-> g7n53q
+> 9rqc5t
 Grade: 6 cow(s).
 Turn 133:
-> 7gn53q
-Grade: 2 bull(s) and 4 cow(s).
+> crq95t
+Grade: 6 cow(s).
 Turn 134:
-> ng753q
-Grade: 1 bull(s) and 5 cow(s).
+> rcq95t
+Grade: 6 cow(s).
 Turn 135:
-> gn753q
+> qcr95t
 Grade: 6 cow(s).
 Turn 136:
-> g57n3q
-Grade: 6 cow(s).
+> cqr95t
+Grade: 1 bull(s) and 5 cow(s).
 Turn 137:
-> 5g7n3q
+> rqc95t
 Grade: 1 bull(s) and 5 cow(s).
 Turn 138:
-> 7g5n3q
-Grade: 2 bull(s) and 4 cow(s).
+> qrc95t
+Grade: 6 cow(s).
 Turn 139:
-> g75n3q
-Grade: 6 cow(s).
-Turn 140:
-> 57gn3q
-Grade: 6 cow(s).
-Turn 141:
-> 75gn3q
+> q9cr5t
 Grade: 1 bull(s) and 5 cow(s).
+Turn 140:
+> 9qcr5t
+Grade: 2 bull(s) and 4 cow(s).
+Turn 141:
+> cq9r5t
+Grade: 2 bull(s) and 4 cow(s).
 Turn 142:
-> 75ng3q
+> qc9r5t
 Grade: 1 bull(s) and 5 cow(s).
 Turn 143:
-> 57ng3q
-Grade: 6 cow(s).
-Turn 144:
-> n75g3q
-Grade: 6 cow(s).
-Turn 145:
-> 7n5g3q
+> 9cqr5t
 Grade: 1 bull(s) and 5 cow(s).
+Turn 144:
+> c9qr5t
+Grade: 1 bull(s) and 5 cow(s).
+Turn 145:
+> c9rq5t
+Grade: 6 cow(s).
 Turn 146:
-> 5n7g3q
+> 9crq5t
 Grade: 6 cow(s).
 Turn 147:
-> n57g3q
+> rc9q5t
 Grade: 6 cow(s).
 Turn 148:
-> q57g3n
-Grade: 1 bull(s) and 5 cow(s).
+> cr9q5t
+Grade: 6 cow(s).
 Turn 149:
-> 5q7g3n
-Grade: 1 bull(s) and 5 cow(s).
+> 9rcq5t
+Grade: 6 cow(s).
 Turn 150:
-> 7q5g3n
-Grade: 2 bull(s) and 4 cow(s).
+> r9cq5t
+Grade: 6 cow(s).
 Turn 151:
-> q75g3n
-Grade: 1 bull(s) and 5 cow(s).
+> t9cq5r
+Grade: 6 cow(s).
 Turn 152:
-> 57qg3n
-Grade: 1 bull(s) and 5 cow(s).
+> 9tcq5r
+Grade: 6 cow(s).
 Turn 153:
-> 75qg3n
-Grade: 2 bull(s) and 4 cow(s).
+> ct9q5r
+Grade: 6 cow(s).
 Turn 154:
-> g5q73n
-Grade: 1 bull(s) and 5 cow(s).
+> tc9q5r
+Grade: 6 cow(s).
 Turn 155:
-> 5gq73n
-Grade: 2 bull(s) and 4 cow(s).
+> 9ctq5r
+Grade: 1 bull(s) and 5 cow(s).
 Turn 156:
-> qg573n
-Grade: 2 bull(s) and 4 cow(s).
+> c9tq5r
+Grade: 1 bull(s) and 5 cow(s).
 Turn 157:
-> gq573n
+> q9tc5r
 Grade: 1 bull(s) and 5 cow(s).
 Turn 158:
-> 5qg73n
-Grade: 1 bull(s) and 5 cow(s).
+> 9qtc5r
+Grade: 2 bull(s) and 4 cow(s).
 Turn 159:
-> q5g73n
+> tq9c5r
 Grade: 1 bull(s) and 5 cow(s).
 Turn 160:
-> q7g53n
-Grade: 1 bull(s) and 5 cow(s).
+> qt9c5r
+Grade: 6 cow(s).
 Turn 161:
-> 7qg53n
-Grade: 2 bull(s) and 4 cow(s).
+> 9tqc5r
+Grade: 6 cow(s).
 Turn 162:
-> gq753n
-Grade: 1 bull(s) and 5 cow(s).
+> t9qc5r
+Grade: 6 cow(s).
 Turn 163:
-> qg753n
-Grade: 2 bull(s) and 4 cow(s).
+> tcq95r
+Grade: 6 cow(s).
 Turn 164:
-> 7gq53n
-Grade: 3 bull(s) and 3 cow(s).
+> ctq95r
+Grade: 6 cow(s).
 Turn 165:
-> g7q53n
-Grade: 1 bull(s) and 5 cow(s).
+> qtc95r
+Grade: 6 cow(s).
 Turn 166:
-> g75q3n
-Grade: 2 bull(s) and 4 cow(s).
+> tqc95r
+Grade: 1 bull(s) and 5 cow(s).
 Turn 167:
-> 7g5q3n
-Grade: 4 bull(s) and 2 cow(s).
+> cqt95r
+Grade: 2 bull(s) and 4 cow(s).
 Turn 168:
-> 5g7q3n
-Grade: 3 bull(s) and 3 cow(s).
+> qct95r
+Grade: 1 bull(s) and 5 cow(s).
 Turn 169:
-> g57q3n
-Grade: 2 bull(s) and 4 cow(s).
+> qc9t5r
+Grade: 6 cow(s).
 Turn 170:
-> 75gq3n
-Grade: 3 bull(s) and 3 cow(s).
+> cq9t5r
+Grade: 1 bull(s) and 5 cow(s).
 Turn 171:
-> 57gq3n
-Grade: 2 bull(s) and 4 cow(s).
+> 9qct5r
+Grade: 1 bull(s) and 5 cow(s).
 Turn 172:
-> 37gq5n
-Grade: 3 bull(s) and 3 cow(s).
+> q9ct5r
+Grade: 6 cow(s).
 Turn 173:
-> 73gq5n
-Grade: 4 bull(s) and 2 cow(s).
+> c9qt5r
+Grade: 6 cow(s).
 Turn 174:
-> g37q5n
-Grade: 3 bull(s) and 3 cow(s).
+> 9cqt5r
+Grade: 6 cow(s).
 Turn 175:
-> 3g7q5n
-Grade: 4 bull(s) and 2 cow(s).
+> 5cqt9r
+Grade: 2 bull(s) and 4 cow(s).
 Turn 176:
-> 7g3q5n
+> c5qt9r
+Grade: 1 bull(s) and 5 cow(s).
+Turn 177:
+> q5ct9r
+Grade: 1 bull(s) and 5 cow(s).
+Turn 178:
+> 5qct9r
+Grade: 3 bull(s) and 3 cow(s).
+Turn 179:
+> cq5t9r
+Grade: 2 bull(s) and 4 cow(s).
+Turn 180:
+> qc5t9r
+Grade: 1 bull(s) and 5 cow(s).
+Turn 181:
+> tc5q9r
+Grade: 1 bull(s) and 5 cow(s).
+Turn 182:
+> ct5q9r
+Grade: 1 bull(s) and 5 cow(s).
+Turn 183:
+> 5tcq9r
+Grade: 2 bull(s) and 4 cow(s).
+Turn 184:
+> t5cq9r
+Grade: 1 bull(s) and 5 cow(s).
+Turn 185:
+> c5tq9r
+Grade: 2 bull(s) and 4 cow(s).
+Turn 186:
+> 5ctq9r
+Grade: 3 bull(s) and 3 cow(s).
+Turn 187:
+> 5qtc9r
+Grade: 4 bull(s) and 2 cow(s).
+Turn 188:
+> q5tc9r
+Grade: 2 bull(s) and 4 cow(s).
+Turn 189:
+> t5qc9r
+Grade: 1 bull(s) and 5 cow(s).
+Turn 190:
+> 5tqc9r
+Grade: 2 bull(s) and 4 cow(s).
+Turn 191:
+> qt5c9r
+Grade: 1 bull(s) and 5 cow(s).
+Turn 192:
+> tq5c9r
+Grade: 2 bull(s) and 4 cow(s).
+Turn 193:
+> tqc59r
+Grade: 2 bull(s) and 4 cow(s).
+Turn 194:
+> qtc59r
+Grade: 1 bull(s) and 5 cow(s).
+Turn 195:
+> ctq59r
+Grade: 1 bull(s) and 5 cow(s).
+Turn 196:
+> tcq59r
+Grade: 1 bull(s) and 5 cow(s).
+Turn 197:
+> qct59r
+Grade: 2 bull(s) and 4 cow(s).
+Turn 198:
+> cqt59r
+Grade: 3 bull(s) and 3 cow(s).
+Turn 199:
+> 9qt5cr
+Grade: 2 bull(s) and 4 cow(s).
+Turn 200:
+> q9t5cr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 201:
+> t9q5cr
+Grade: 6 cow(s).
+Turn 202:
+> 9tq5cr
+Grade: 6 cow(s).
+Turn 203:
+> qt95cr
+Grade: 6 cow(s).
+Turn 204:
+> tq95cr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 205:
+> 5q9tcr
+Grade: 2 bull(s) and 4 cow(s).
+Turn 206:
+> q59tcr
+Grade: 6 cow(s).
+Turn 207:
+> 95qtcr
+Grade: 6 cow(s).
+Turn 208:
+> 59qtcr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 209:
+> q95tcr
+Grade: 6 cow(s).
+Turn 210:
+> 9q5tcr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 211:
+> 9t5qcr
+Grade: 6 cow(s).
+Turn 212:
+> t95qcr
+Grade: 6 cow(s).
+Turn 213:
+> 59tqcr
+Grade: 2 bull(s) and 4 cow(s).
+Turn 214:
+> 95tqcr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 215:
+> t59qcr
+Grade: 6 cow(s).
+Turn 216:
+> 5t9qcr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 217:
+> 5tq9cr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 218:
+> t5q9cr
+Grade: 6 cow(s).
+Turn 219:
+> q5t9cr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 220:
+> 5qt9cr
+Grade: 3 bull(s) and 3 cow(s).
+Turn 221:
+> tq59cr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 222:
+> qt59cr
+Grade: 6 cow(s).
+Turn 223:
+> ct59qr
+Grade: 6 cow(s).
+Turn 224:
+> tc59qr
+Grade: 6 cow(s).
+Turn 225:
+> 5ct9qr
+Grade: 2 bull(s) and 4 cow(s).
+Turn 226:
+> c5t9qr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 227:
+> t5c9qr
+Grade: 6 cow(s).
+Turn 228:
+> 5tc9qr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 229:
+> 9tc5qr
+Grade: 6 cow(s).
+Turn 230:
+> t9c5qr
+Grade: 6 cow(s).
+Turn 231:
+> c9t5qr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 232:
+> 9ct5qr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 233:
+> tc95qr
+Grade: 6 cow(s).
+Turn 234:
+> ct95qr
+Grade: 6 cow(s).
+Turn 235:
+> c59tqr
+Grade: 6 cow(s).
+Turn 236:
+> 5c9tqr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 237:
+> 9c5tqr
+Grade: 6 cow(s).
+Turn 238:
+> c95tqr
+Grade: 6 cow(s).
+Turn 239:
+> 59ctqr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 240:
+> 95ctqr
+Grade: 6 cow(s).
+Turn 241:
+> 95tcqr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 242:
+> 59tcqr
+Grade: 2 bull(s) and 4 cow(s).
+Turn 243:
+> t95cqr
+Grade: 6 cow(s).
+Turn 244:
+> 9t5cqr
+Grade: 6 cow(s).
+Turn 245:
+> 5t9cqr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 246:
+> t59cqr
+Grade: 6 cow(s).
+Turn 247:
+> q59ctr
+Grade: 6 cow(s).
+Turn 248:
+> 5q9ctr
+Grade: 2 bull(s) and 4 cow(s).
+Turn 249:
+> 9q5ctr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 250:
+> q95ctr
+Grade: 6 cow(s).
+Turn 251:
+> 59qctr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 252:
+> 95qctr
+Grade: 6 cow(s).
+Turn 253:
+> c5q9tr
+Grade: 6 cow(s).
+Turn 254:
+> 5cq9tr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 255:
+> qc59tr
+Grade: 6 cow(s).
+Turn 256:
+> cq59tr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 257:
+> 5qc9tr
+Grade: 2 bull(s) and 4 cow(s).
+Turn 258:
+> q5c9tr
+Grade: 6 cow(s).
+Turn 259:
+> q9c5tr
+Grade: 6 cow(s).
+Turn 260:
+> 9qc5tr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 261:
+> cq95tr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 262:
+> qc95tr
+Grade: 6 cow(s).
+Turn 263:
+> 9cq5tr
+Grade: 6 cow(s).
+Turn 264:
+> c9q5tr
+Grade: 6 cow(s).
+Turn 265:
+> c95qtr
+Grade: 6 cow(s).
+Turn 266:
+> 9c5qtr
+Grade: 6 cow(s).
+Turn 267:
+> 5c9qtr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 268:
+> c59qtr
+Grade: 6 cow(s).
+Turn 269:
+> 95cqtr
+Grade: 6 cow(s).
+Turn 270:
+> 59cqtr
+Grade: 1 bull(s) and 5 cow(s).
+Turn 271:
+> 5rcqt9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 272:
+> r5cqt9
+Grade: 6 cow(s).
+Turn 273:
+> c5rqt9
+Grade: 6 cow(s).
+Turn 274:
+> 5crqt9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 275:
+> rc5qt9
+Grade: 6 cow(s).
+Turn 276:
+> cr5qt9
+Grade: 6 cow(s).
+Turn 277:
+> qr5ct9
+Grade: 6 cow(s).
+Turn 278:
+> rq5ct9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 279:
+> 5qrct9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 280:
+> q5rct9
+Grade: 6 cow(s).
+Turn 281:
+> r5qct9
+Grade: 6 cow(s).
+Turn 282:
+> 5rqct9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 283:
+> 5cqrt9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 284:
+> c5qrt9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 285:
+> q5crt9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 286:
+> 5qcrt9
+Grade: 3 bull(s) and 3 cow(s).
+Turn 287:
+> cq5rt9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 288:
+> qc5rt9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 289:
+> qcr5t9
+Grade: 6 cow(s).
+Turn 290:
+> cqr5t9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 291:
+> rqc5t9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 292:
+> qrc5t9
+Grade: 6 cow(s).
+Turn 293:
+> crq5t9
+Grade: 6 cow(s).
+Turn 294:
+> rcq5t9
+Grade: 6 cow(s).
+Turn 295:
+> tcq5r9
+Grade: 6 cow(s).
+Turn 296:
+> ctq5r9
+Grade: 6 cow(s).
+Turn 297:
+> qtc5r9
+Grade: 6 cow(s).
+Turn 298:
+> tqc5r9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 299:
+> cqt5r9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 300:
+> qct5r9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 301:
+> 5ctqr9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 302:
+> c5tqr9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 303:
+> t5cqr9
+Grade: 6 cow(s).
+Turn 304:
+> 5tcqr9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 305:
+> ct5qr9
+Grade: 6 cow(s).
+Turn 306:
+> tc5qr9
+Grade: 6 cow(s).
+Turn 307:
+> tq5cr9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 308:
+> qt5cr9
+Grade: 6 cow(s).
+Turn 309:
+> 5tqcr9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 310:
+> t5qcr9
+Grade: 6 cow(s).
+Turn 311:
+> q5tcr9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 312:
+> 5qtcr9
+Grade: 3 bull(s) and 3 cow(s).
+Turn 313:
+> 5qctr9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 314:
+> q5ctr9
+Grade: 6 cow(s).
+Turn 315:
+> c5qtr9
+Grade: 6 cow(s).
+Turn 316:
+> 5cqtr9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 317:
+> qc5tr9
+Grade: 6 cow(s).
+Turn 318:
+> cq5tr9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 319:
+> rq5tc9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 320:
+> qr5tc9
+Grade: 6 cow(s).
+Turn 321:
+> 5rqtc9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 322:
+> r5qtc9
+Grade: 6 cow(s).
+Turn 323:
+> q5rtc9
+Grade: 6 cow(s).
+Turn 324:
+> 5qrtc9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 325:
+> tqr5c9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 326:
+> qtr5c9
+Grade: 6 cow(s).
+Turn 327:
+> rtq5c9
+Grade: 6 cow(s).
+Turn 328:
+> trq5c9
+Grade: 6 cow(s).
+Turn 329:
+> qrt5c9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 330:
+> rqt5c9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 331:
+> r5tqc9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 332:
+> 5rtqc9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 333:
+> tr5qc9
+Grade: 6 cow(s).
+Turn 334:
+> rt5qc9
+Grade: 6 cow(s).
+Turn 335:
+> 5trqc9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 336:
+> t5rqc9
+Grade: 6 cow(s).
+Turn 337:
+> t5qrc9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 338:
+> 5tqrc9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 339:
+> qt5rc9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 340:
+> tq5rc9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 341:
+> 5qtrc9
+Grade: 4 bull(s) and 2 cow(s).
+Turn 342:
+> q5trc9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 343:
+> c5trq9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 344:
+> 5ctrq9
+Grade: 3 bull(s) and 3 cow(s).
+Turn 345:
+> tc5rq9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 346:
+> ct5rq9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 347:
+> 5tcrq9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 348:
+> t5crq9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 349:
+> r5ctq9
+Grade: 6 cow(s).
+Turn 350:
+> 5rctq9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 351:
+> cr5tq9
+Grade: 6 cow(s).
+Turn 352:
+> rc5tq9
+Grade: 6 cow(s).
+Turn 353:
+> 5crtq9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 354:
+> c5rtq9
+Grade: 6 cow(s).
+Turn 355:
+> ctr5q9
+Grade: 6 cow(s).
+Turn 356:
+> tcr5q9
+Grade: 6 cow(s).
+Turn 357:
+> rct5q9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 358:
+> crt5q9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 359:
+> trc5q9
+Grade: 6 cow(s).
+Turn 360:
+> rtc5q9
+Grade: 6 cow(s).
+Turn 361:
+> rt5cq9
+Grade: 6 cow(s).
+Turn 362:
+> tr5cq9
+Grade: 6 cow(s).
+Turn 363:
+> 5rtcq9
+Grade: 2 bull(s) and 4 cow(s).
+Turn 364:
+> r5tcq9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 365:
+> t5rcq9
+Grade: 6 cow(s).
+Turn 366:
+> 5trcq9
+Grade: 1 bull(s) and 5 cow(s).
+Turn 367:
+> qtrc59
+Grade: 6 cow(s).
+Turn 368:
+> tqrc59
+Grade: 1 bull(s) and 5 cow(s).
+Turn 369:
+> rqtc59
+Grade: 2 bull(s) and 4 cow(s).
+Turn 370:
+> qrtc59
+Grade: 1 bull(s) and 5 cow(s).
+Turn 371:
+> trqc59
+Grade: 6 cow(s).
+Turn 372:
+> rtqc59
+Grade: 6 cow(s).
+Turn 373:
+> ctqr59
+Grade: 1 bull(s) and 5 cow(s).
+Turn 374:
+> tcqr59
+Grade: 1 bull(s) and 5 cow(s).
+Turn 375:
+> qctr59
+Grade: 2 bull(s) and 4 cow(s).
+Turn 376:
+> cqtr59
+Grade: 3 bull(s) and 3 cow(s).
+Turn 377:
+> tqcr59
+Grade: 2 bull(s) and 4 cow(s).
+Turn 378:
+> qtcr59
+Grade: 1 bull(s) and 5 cow(s).
+Turn 379:
+> qrct59
+Grade: 6 cow(s).
+Turn 380:
+> rqct59
+Grade: 1 bull(s) and 5 cow(s).
+Turn 381:
+> cqrt59
+Grade: 1 bull(s) and 5 cow(s).
+Turn 382:
+> qcrt59
+Grade: 6 cow(s).
+Turn 383:
+> rcqt59
+Grade: 6 cow(s).
+Turn 384:
+> crqt59
+Grade: 6 cow(s).
+Turn 385:
+> crtq59
+Grade: 1 bull(s) and 5 cow(s).
+Turn 386:
+> rctq59
+Grade: 1 bull(s) and 5 cow(s).
+Turn 387:
+> tcrq59
+Grade: 6 cow(s).
+Turn 388:
+> ctrq59
+Grade: 6 cow(s).
+Turn 389:
+> rtcq59
+Grade: 6 cow(s).
+Turn 390:
+> trcq59
+Grade: 6 cow(s).
+Turn 391:
+> tr9q5c
+Grade: 1 bull(s) and 5 cow(s).
+Turn 392:
+> rt9q5c
+Grade: 1 bull(s) and 5 cow(s).
+Turn 393:
+> 9trq5c
+Grade: 1 bull(s) and 5 cow(s).
+Turn 394:
+> t9rq5c
+Grade: 1 bull(s) and 5 cow(s).
+Turn 395:
+> r9tq5c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 396:
+> 9rtq5c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 397:
+> qrt95c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 398:
+> rqt95c
+Grade: 3 bull(s) and 3 cow(s).
+Turn 399:
+> tqr95c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 400:
+> qtr95c
+Grade: 1 bull(s) and 5 cow(s).
+Turn 401:
+> rtq95c
+Grade: 1 bull(s) and 5 cow(s).
+Turn 402:
+> trq95c
+Grade: 1 bull(s) and 5 cow(s).
+Turn 403:
+> t9qr5c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 404:
+> 9tqr5c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 405:
+> qt9r5c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 406:
+> tq9r5c
+Grade: 3 bull(s) and 3 cow(s).
+Turn 407:
+> 9qtr5c
+Grade: 4 bull(s) and 2 cow(s).
+Turn 408:
+> q9tr5c
+Grade: 3 bull(s) and 3 cow(s).
+Turn 409:
+> q9rt5c
+Grade: 1 bull(s) and 5 cow(s).
+Turn 410:
+> 9qrt5c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 411:
+> rq9t5c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 412:
+> qr9t5c
+Grade: 1 bull(s) and 5 cow(s).
+Turn 413:
+> 9rqt5c
+Grade: 1 bull(s) and 5 cow(s).
+Turn 414:
+> r9qt5c
+Grade: 1 bull(s) and 5 cow(s).
+Turn 415:
+> 59qtrc
+Grade: 2 bull(s) and 4 cow(s).
+Turn 416:
+> 95qtrc
+Grade: 1 bull(s) and 5 cow(s).
+Turn 417:
+> q59trc
+Grade: 1 bull(s) and 5 cow(s).
+Turn 418:
+> 5q9trc
+Grade: 3 bull(s) and 3 cow(s).
+Turn 419:
+> 9q5trc
+Grade: 2 bull(s) and 4 cow(s).
+Turn 420:
+> q95trc
+Grade: 1 bull(s) and 5 cow(s).
+Turn 421:
+> t95qrc
+Grade: 1 bull(s) and 5 cow(s).
+Turn 422:
+> 9t5qrc
+Grade: 1 bull(s) and 5 cow(s).
+Turn 423:
+> 5t9qrc
+Grade: 2 bull(s) and 4 cow(s).
+Turn 424:
+> t59qrc
+Grade: 1 bull(s) and 5 cow(s).
+Turn 425:
+> 95tqrc
+Grade: 2 bull(s) and 4 cow(s).
+Turn 426:
+> 59tqrc
+Grade: 3 bull(s) and 3 cow(s).
+Turn 427:
+> 5qt9rc
+Grade: 4 bull(s) and 2 cow(s).
+Turn 428:
+> q5t9rc
+Grade: 2 bull(s) and 4 cow(s).
+Turn 429:
+> t5q9rc
+Grade: 1 bull(s) and 5 cow(s).
+Turn 430:
+> 5tq9rc
+Grade: 2 bull(s) and 4 cow(s).
+Turn 431:
+> qt59rc
+Grade: 1 bull(s) and 5 cow(s).
+Turn 432:
+> tq59rc
+Grade: 2 bull(s) and 4 cow(s).
+Turn 433:
+> tq95rc
+Grade: 2 bull(s) and 4 cow(s).
+Turn 434:
+> qt95rc
+Grade: 1 bull(s) and 5 cow(s).
+Turn 435:
+> 9tq5rc
+Grade: 1 bull(s) and 5 cow(s).
+Turn 436:
+> t9q5rc
+Grade: 1 bull(s) and 5 cow(s).
+Turn 437:
+> q9t5rc
+Grade: 2 bull(s) and 4 cow(s).
+Turn 438:
+> 9qt5rc
+Grade: 3 bull(s) and 3 cow(s).
+Turn 439:
+> rqt59c
+Grade: 4 bull(s) and 2 cow(s).
+Turn 440:
+> qrt59c
+Grade: 3 bull(s) and 3 cow(s).
+Turn 441:
+> trq59c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 442:
+> rtq59c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 443:
+> qtr59c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 444:
+> tqr59c
+Grade: 3 bull(s) and 3 cow(s).
+Turn 445:
+> 5qrt9c
+Grade: 4 bull(s) and 2 cow(s).
+Turn 446:
+> q5rt9c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 447:
+> r5qt9c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 448:
+> 5rqt9c
+Grade: 3 bull(s) and 3 cow(s).
+Turn 449:
+> qr5t9c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 450:
+> rq5t9c
+Grade: 3 bull(s) and 3 cow(s).
+Turn 451:
+> rt5q9c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 452:
+> tr5q9c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 453:
+> 5rtq9c
+Grade: 4 bull(s) and 2 cow(s).
+Turn 454:
+> r5tq9c
+Grade: 3 bull(s) and 3 cow(s).
+Turn 455:
+> t5rq9c
+Grade: 2 bull(s) and 4 cow(s).
+Turn 456:
+> 5trq9c
+Grade: 3 bull(s) and 3 cow(s).
+Turn 457:
+> 5tqr9c
+Grade: 4 bull(s) and 2 cow(s).
+Turn 458:
+> t5qr9c
+Grade: 3 bull(s) and 3 cow(s).
+Turn 459:
+> q5tr9c
+Grade: 4 bull(s) and 2 cow(s).
+Turn 460:
+> 5qtr9c
 Grade: 6 bull(s)
 Congratulations! You guessed the secret code.
+?[1;31m
+Start test 7?[0m
+Please, enter the secret code's length:
+> 0
+Input the number of possible symbols in the code:
+> 1
+Error: it's not possible to generate a code with a length of 0with1 unique symbols.
+?[1;31m
+Start test 8?[0m
+Please, enter the secret code's length:
+> 10
+Input the number of possible symbols in the code:
+> 9
+Error: it's not possible to generate a code with a length of 10with9 unique symbols.
+?[1;31m
+Start test 9?[0m
+Please, enter the secret code's length:
+> 9
+Input the number of possible symbols in the code:
+> 37
+Error: maximum number of possible symbols in the code is 36 (0-9, a-z).
+?[1;31m
+Start test 10?[0m
+Please, enter the secret code's length:
+> abcdefg 1 -6
+Error: abcdefg 1 -6 isn't a valid number.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

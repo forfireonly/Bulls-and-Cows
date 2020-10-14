@@ -11,18 +11,34 @@ public class Main {
 
         System.out.println("Please, enter the secret code's length:");
 
-        int lengthOfCode = Integer.parseInt(reader.readLine());
+        String lengthOfCodeString = reader.readLine();
+        if (!lengthOfCodeString.matches("-?\\d+")) {
+            System.out.println("Error: " + lengthOfCodeString +" isn't a valid number.");
+            System.exit(0);
+        }
+
+        int lengthOfCode = Integer.parseInt(lengthOfCodeString);
         String[] guessSecretCode = new String[lengthOfCode];
 
         System.out.println("Input the number of possible symbols in the code:");
 
-        int numberOfSymbols = Integer.parseInt(reader.readLine()) - 11;
+        int numberOfSymbols = Integer.parseInt(reader.readLine());
+
+        if (numberOfSymbols > 36) {
+            System.out.println("Error: maximum number of possible symbols in the code is 36 (0-9, a-z).");
+            System.exit(0);
+        }
 
         Grader grader = new Grader();
 
         RandomNumber newRandomNumber = new RandomNumber();
+        if (numberOfSymbols < lengthOfCode || lengthOfCode == 0) {
+            System.out.println("Error: it's not possible to generate a code with a length of " + lengthOfCode +
+                            "with" + numberOfSymbols + " unique symbols.");
+            System.exit(0);
+        }
         newRandomNumber.setLengthOfNumber(lengthOfCode);
-        newRandomNumber.setNumberOfSymbols(numberOfSymbols);
+        newRandomNumber.setNumberOfSymbols(numberOfSymbols - 11);
         String[] secretCode = newRandomNumber.generatePseudoNumber().split("");
         grader.setSecreteCode(secretCode);
         System.out.println(newRandomNumber.printBeforeTheGame());

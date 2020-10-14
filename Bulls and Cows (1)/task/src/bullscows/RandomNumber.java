@@ -21,9 +21,9 @@ public class RandomNumber {
     public String printBeforeTheGame() {
         String range = "";
         if (numberOfSymbols > 0) {
-            range = ", (" + alphabet[0] + "-" + alphabet[numberOfSymbols] + ").";
+            range = ", " + alphabet[0] + "-" + alphabet[numberOfSymbols];
         }
-        return "The secret is prepared: " + "*".repeat(lengthOfNumber) + " (0-9" + range;
+        return "The secret is prepared: " + "*".repeat(lengthOfNumber) + " (0-9" + range + ").";
     }
 
     public String generatePseudoNumber() {
@@ -35,7 +35,8 @@ public class RandomNumber {
         int indexOfLetter = 0;
         String letter = "";
         if (lengthOfNumber > 36) {
-            System.out.println("Error: can't generate a secret number with a length more than 36");
+            System.out.println("Error: maximum number of possible symbols in the code is 36 (0-9, a-z).");
+            System.exit(0);
         } else if (numberOfSymbols <= 10) {
             for (int i = 0; i < lengthOfNumber; i++) {
                 if (i == 0) {
